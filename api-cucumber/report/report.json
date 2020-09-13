@@ -1,0 +1,105 @@
+[
+  {
+    "description": "  通过自定定义mock数据模拟请求响应数据，并进行断言",
+    "keyword": "功能",
+    "name": "mock数据",
+    "line": 2,
+    "id": "mock数据",
+    "tags": [],
+    "uri": "features/feature.feature",
+    "elements": [
+      {
+        "id": "mock数据;get-请求获取接口数据，并进行断言",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "GET 请求获取接口数据，并进行断言",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "请求 \"http://localhost:53000/info/1\" 期望 '{   \"id\": 1,   \"name\": \"张三\",   \"location\": \"福州\" }'",
+            "match": {
+              "location": "features/step_definitions/definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mock数据;get-请求获取接口数据，并进行断言",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "GET 请求获取接口数据，并进行断言",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "请求 \"http://localhost:53000/info/2\" 期望 '{   \"id\": 2,   \"name\": \"李四\",   \"location\": \"宁德\" }'",
+            "match": {
+              "location": "features/step_definitions/definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mock数据;get-请求获取接口数据，并进行断言",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "GET 请求获取接口数据，并进行断言",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "请求 \"http://localhost:53000/info2/1\" 期望 '{   \"id\": 1,   \"name\": \"陈七\",   \"location\": \"漳州\" }'",
+            "match": {
+              "location": "features/step_definitions/definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mock数据;场景大纲:-post-请求接口，插入一条数据（更换id，否则报错-insert-failed,-duplicate-id）",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "场景大纲: POST 请求接口，插入一条数据（更换ID，否则报错 Insert failed, duplicate id）",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 14,
+            "name": "请求数据 '{ \"id\": 3, \"name\": \"jack\", \"location\": \"CHINA\"}' 请求地址 \"http://localhost:53000/info\" 期望得到 '{ \"id\": 3, \"name\": \"杰克\", \"location\": \"CHINA\"}'",
+            "match": {
+              "location": "features/step_definitions/definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

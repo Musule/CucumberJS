@@ -1,0 +1,394 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "open browser \"http:// xxx.xxx.com/#/login\"",
+            "match": {
+              "location": "features/step_definitions/login.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1413000000,
+              "error_message": "Error: unknown error: net::ERR_NAME_NOT_RESOLVED\n    at new RuntimeError (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:143:12)\n    at Request._callback (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/utils/RequestHandler.js:318:39)\n    at Request.self.callback (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:315:20)\n    at Request.EventEmitter.emit (domain.js:483:12)\n    at Request.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:1161:10)\n    at Request.emit (events.js:315:20)\n    at Request.EventEmitter.emit (domain.js:483:12)\n    at IncomingMessage.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:1083:12)\n    at Object.onceWrapper (events.js:421:28)\n    at IncomingMessage.emit (events.js:327:22)\n    at IncomingMessage.EventEmitter.emit (domain.js:483:12)\n    at endReadableNT (_stream_readable.js:1220:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "input \"\" And \"\"",
+            "match": {
+              "location": "features/step_definitions/login.js:37"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "result \"当前: 超级管理员\"",
+            "match": {
+              "location": "features/step_definitions/login.js:44"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "open browser \"http:// xxx.xxxx.com/#/login\"",
+            "match": {
+              "location": "features/step_definitions/login.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 532000000,
+              "error_message": "Error: unknown error: net::ERR_NAME_NOT_RESOLVED\n    at new RuntimeError (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:143:12)\n    at Request._callback (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/utils/RequestHandler.js:318:39)\n    at Request.self.callback (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:315:20)\n    at Request.EventEmitter.emit (domain.js:483:12)\n    at Request.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:1161:10)\n    at Request.emit (events.js:315:20)\n    at Request.EventEmitter.emit (domain.js:483:12)\n    at IncomingMessage.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/request/request.js:1083:12)\n    at Object.onceWrapper (events.js:421:28)\n    at IncomingMessage.emit (events.js:327:22)\n    at IncomingMessage.EventEmitter.emit (domain.js:483:12)\n    at endReadableNT (_stream_readable.js:1220:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "input \"\" And \"\"",
+            "match": {
+              "location": "features/step_definitions/login.js:37"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "result \"当前: 超级管理员\"",
+            "match": {
+              "location": "features/step_definitions/login.js:44"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "features/web-search.feature",
+    "elements": [
+      {
+        "id": "search;search",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "load browser \"http://www.baidu.com\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "search \"selenium\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "search result \"Selenium - Web Browser Automation\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:44"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 37000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -Selenium automates browsers. That's it!\n    +Selenium - Web Browser Automation\n\n    at Assertion.fail (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:275:17)\n    at Assertion.value (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:356:19)\n    at Object.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:387:24)\n    at Object.exec (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:854:54)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:816:13)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:624:44\n    at runSingle (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:137:13)\n    at flush (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:125:13)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;search",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "load browser \"http://www.baidu.com\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "search \"webdriverio\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "search result \"WebdriverIO · Next-gen WebDriver test framework for Node.js\"",
+            "match": {
+              "location": "features/step_definitions/web-search.js:44"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 79000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -WebdriverIO · Next-gen browser and mobile automat...\n    +WebdriverIO · Next-gen WebDriver test framework for Node.js\n\n    at Assertion.fail (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:275:17)\n    at Assertion.value (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:356:19)\n    at Object.<anonymous> (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/should/cjs/should.js:387:24)\n    at Object.exec (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:854:54)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:816:13)\n    at /Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:624:44\n    at runSingle (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:137:13)\n    at flush (/Users/liyinchi/workspace/AutoTest/web/nodejs/mocha/js-autotest-framework/Cucumber/web-cucumber/node_modules/webdriverio/node_modules/q/q.js:125:13)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/web-search.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/login.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

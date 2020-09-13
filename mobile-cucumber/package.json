@@ -1,0 +1,20 @@
+{
+  "name": "mobile-cucumber",
+  "version": "1.0.0",
+  "author": "liyinchi",
+  "description": "基于webdriverIO+cucumber mobile自动化测试框架",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/cucumber-js --format json:./report/report.json",
+    "report": "node index.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "should": "^13.2.3",
+    "webdriverio": "^4.14.0"
+  }
+}

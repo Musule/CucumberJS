@@ -1,0 +1,23 @@
+{
+  "name": "api-cucumber",
+  "version": "1.0.0",
+  "description": "axios+cucumber restful api 自动化测试框架",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "mock": "json-server --watch --port 53000 data.json",
+    "start": "./node_modules/.bin/cucumber-js --format json:./report/report.json",
+    "report": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "json-server": "^0.16.1",
+    "mockjs": "^1.1.0",
+    "unirest": "^0.6.0",
+    "wdio": "^4.0.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "name": "张三",
+      "location": "福州"
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "location": "宁德"
+    },
+    {
+      "id": 3,
+      "name": "jack",
+      "location": "CHINA"
+    }
+  ],
+  "info2": [
+    {
+      "id": 1,
+      "name": "陈七",
+      "location": "漳州"
+    },
+    {
+      "id": 2,
+      "name": "赵八",
+      "location": "南平"
+    },
+    {
+      "id": 3,
+      "name": "曾九",
+      "location": "三明"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-mock",
+      "body": "The internet is cool!",
+      "author": "therebelrobot",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment from author",
+      "votes": 20,
+      "postId": 1,
+      "userId": 1
+    }
+  ]
+}

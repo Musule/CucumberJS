@@ -1,0 +1,21 @@
+{
+  "name": "web-cucumber",
+  "version": "1.0.0",
+  "description": "基于webdriverIO+cucumber web自动化测试框架",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/cucumber-js --format json:./report/report.json",
+    "report": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "should": "^13.2.3",
+    "webdriverio": "^4.14.1"
+  }
+}
